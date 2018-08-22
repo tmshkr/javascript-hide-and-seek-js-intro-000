@@ -18,7 +18,6 @@ function deepestChild(){
   var current = document.getElementById('grand-node')
 
   while (current.hasChildNodes()){
-    debugger
     current = current.children[0]
   }
   return current
